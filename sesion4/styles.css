@@ -1,0 +1,72 @@
+body{
+    font-family: 'roboto',sans-serif
+}
+
+h1{
+    color: hotpink;
+}
+
+.div__block-examples {
+    height: 900vh;
+}
+
+.div__block-examples > *{
+    width: 90px;
+    height: 90px;
+    border: 1px solid black; 
+    margin: 10px;
+    
+}
+va a ser estatico
+.div__static--yellow {
+    background-color: yellow;
+    position: static;
+    
+}
+relatvo a su posicion originañ
+.div__relative--hotpink {
+background-color: hotpink;
+position: relative;
+top: 40px;
+left: 40px;
+}
+relativo al biupor
+.div__fixed--blue {
+background-color: blue;
+position: fixed;
+top: 40px;
+left: 40px;
+}
+es adsoulto 
+.div__absolute--red {
+background-color: red;
+position: absolute;
+top: 40px;
+left: 40px;
+
+}
+obedece al scroll
+.div__sticky--peru {
+    background-color: peru;
+    position: sticky;
+    top: 20px;
+
+
+}
+
+.img__z-index {
+    position: absolute;
+    z-index: -3;
+
+}
+
+.p__z-index--white {
+    color: white;   
+
+}
+
+.button__z-index {
+    position: absolute;
+    z-index: 5;
+}
+

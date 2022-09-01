@@ -1,0 +1,38 @@
+table, th, td, div{
+    /* aqui dentro voy escribir REGLAS CSS */
+    border: 1px solid black;
+}
+
+.hi {
+    /*no quiero border goey :v */
+    border: none;
+    color: purple;
+    font-size: 2cm;
+}
+
+.howareu {
+    border: 10px dotted gray;
+    background-color: aqua;
+    color: brown;
+    font-size: 1rem;
+}
+
+#id_container{
+    width: 30vw;
+    height: 180vh;
+    border: 10px solid blue;
+    background-color: orange;
+}   
+
+div.elfo ol>li {
+    background-color: yellow;
+}
+
+.div_lord-of-the-rings--green >*{
+    background-color: hotpink;
+
+}
+
+#legolas ol>li[title="movie"] {
+    font-weight: bold;
+}

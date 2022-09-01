@@ -1,0 +1,70 @@
+body{
+    font-family: 'Roboto', sans-serif
+    ;
+}
+
+h1 {
+    color:hotpink
+}
+.span__display-none {
+    display: none;
+
+}
+
+.span__display-in-line--red {
+    display: inline;
+    color: red;
+}
+
+.span__display-block--red {
+    display: block;
+    color: red;
+    padding: 20px;
+
+}
+
+.div__flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.div__flex-box {
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    margin: 15px;
+    background-color: hotpink;
+    color: white;
+    
+}
+
+.div__flex-wrap > .div {
+    width: 90px;
+    height: 90px;
+    border: 2px dotted hotpink;
+    background-color: greenyellow;
+    margin: 10px;
+
+}
+
+.div__flex-wrap {
+    width: 800px;
+    height: auto;
+    border: 2px solid black;
+    background-color: gray;   
+    display: flex;    
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    flex-wrap: nowrap;
+
+}
+
+.div__flex-justify-content {
+    margin-top: 20px;
+    width: 800px;
+    height: auto;
+    border: 2px solid black;
+    background-color: gray;   
+    display: flex;  
+}
