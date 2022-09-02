@@ -1,0 +1,26 @@
+h1 {
+  color: hotpink;
+}
+
+p {
+  color: green;
+}
+
+.div_flex-container {
+  display: flex;
+}
+.div_flex-container .div_flex-box {
+  width: 90px;
+  height: 90px;
+  border: 1px solid black;
+  background-color: greenyellow;
+  margin: 15px;
+}
+.div_flex-container .div_flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div_flex-container .div_flex-box {
+  background-color: hotpink;
+}/*# sourceMappingURL=styles.css.map */
