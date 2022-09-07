@@ -1,0 +1,44 @@
+header {
+    width: 100vw;
+    height: 90px;
+    background-color: green;
+}   
+
+nav {
+    width: 80vw;
+    height: 34px;
+    background-color: greenyellow;
+    justify-content: center;
+}
+
+.div__flex-conteiner{
+    display: flex;
+    margin: 15px 15px;
+}
+
+aside {
+    width: 50vw;
+    height: 90vh;
+    background-color: coral;
+    
+}
+main {
+    width: 50vw;
+    height: 90vh;
+    background-color: brown;
+    margin: 0px 15px;
+    display: flex;
+}
+.div__flex-box { 
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    margin: 49px;
+
+}
+
+footer {
+    width: 100vw;
+    height: 90px;
+    background-color: blueviolet;
+}
